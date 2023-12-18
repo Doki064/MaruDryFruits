@@ -57,8 +57,6 @@ const NavBar = () => {
                             </NavDropdown>
                             <NavDropdown
                                 title="About Us"
-                                as={Link}
-                                to="/about"
                                 onMouseEnter={() => setIsAboutUsHovered(true)}
                                 onMouseLeave={() => setIsAboutUsHovered(false)}
                                 show={isAboutUsHovered}
